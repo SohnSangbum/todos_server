@@ -68,4 +68,4 @@ npm run dev
 
 ## 🖼 Preview
 
-<img src='img/server.gif' alt='' >
+<img src='img/record.gif' alt='' >
