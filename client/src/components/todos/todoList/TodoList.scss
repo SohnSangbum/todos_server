@@ -1,0 +1,36 @@
+.TodoList {
+    li {
+        padding: 10px;
+        border-bottom: 1px solid #dcdcdc;
+        border: 1px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        + li {
+            border-top: none;
+        }
+
+        input[type='checkbox'] {
+            margin-right: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        em {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        &.on em {
+            color: tomato;
+            text-decoration: line-through;
+        }
+
+        button {
+            width: 80px;
+            height: 35px;
+            border: 1px solid #000;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+}
